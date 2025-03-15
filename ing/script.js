@@ -70,3 +70,14 @@ for(let i = 0; i < scollMoveEl.length; i++){
     animationMove(target);
   });
 }
+
+// scroll percentage
+const getScrollPercent = () => {
+    const scrolled = window.scrollY;
+    const pageHeight = document.documentElement.scrollHeight;
+    const viewHeight = document.documentElement.clientHeight;
+
+    const percentage = scrolled / (pageHeight - viewHeight) * 100;
+    document.querySelector('#scrollBar').style.width = `${percentage}%`;
+};
+window.addEventListener('scroll', getScrollPercent);
