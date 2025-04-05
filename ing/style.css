@@ -255,6 +255,7 @@ section .do-me .do-inner {
     float: left;
     margin-right: 5%;
     margin-bottom: 5%;
+    transition: background-color .5s ease;
     cursor: pointer;
 }
 
