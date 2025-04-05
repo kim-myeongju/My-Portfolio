@@ -89,7 +89,7 @@ main {
     width: 100%;
     height: 100vh;
     color: white;
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('images/me.jpg') center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('images/맨해튼비치.jpg') center center;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -212,6 +212,7 @@ section .about-self .left {
 
 section .about-self .left img {
     max-width: 100%;
+    height: 600px;
 }
 
 section .about-self .right {
@@ -249,9 +250,11 @@ section .do-me::after {
 section .do-me .do-inner {
     background-color: #fff;
     width: 30%;
-    padding: 2rem;
+    height: 50vh;
+    padding: 1.7rem;
     float: left;
     margin-right: 5%;
+    margin-bottom: 5%;
     cursor: pointer;
 }
 
@@ -264,7 +267,7 @@ section .do-me .do-inner:nth-child(3n) {
 }
 
 section .do-me .do-inner .icon i {
-    font-size: 2.5rem;
+    font-size: 1.7rem;
     color: #4f9f76;
 }
 
@@ -273,8 +276,9 @@ section .do-me .do-inner .content h3 {
     margin: 1rem 0;
 }
 
-section .do-me .do-inner .content p {
-    font-size: 1.15rem;
+section .do-me .do-inner .content ul li {
+    font-size: 1rem;
+    list-style: square;
 }
 
 section .do-me .do-inner:hover {
@@ -288,7 +292,7 @@ section .do-me .do-inner:hover i {
 
 /* 배경 영역 */
 .bg {
-    background: url('./images/background.jpg') center center;
+    background: url('./images/one\ way.jpg') center center;
     background-size: cover;
     background-attachment: fixed;
     height: 650px;
